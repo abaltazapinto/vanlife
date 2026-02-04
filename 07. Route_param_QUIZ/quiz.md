@@ -17,7 +17,7 @@ function ProductDetail() {
 
     Route patter: /products/:productId
     Actual URL: /products/1
-    Captured param: { productId: "1" }
+    Captured param: { productId: "1" }`
 
 So yes: it's what let you have one route definition that matches many pages like:
     . /products/
