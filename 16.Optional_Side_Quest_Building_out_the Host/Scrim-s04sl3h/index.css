@@ -326,8 +326,8 @@ i[class*='van-type-'] {
 }
 
 .host-van-link-wrapper {
-    color: unset;
-    text-decoration: unset;
+    color: inherit;
+    text-decoration: none;
 }
 
 .host-van-single {
@@ -398,4 +398,9 @@ i[class*='van-type-'] {
 
 .host-van-detail-info > p > span {
     font-weight: 700;
+}
+
+
+.host-status-message {
+    padding-inline: 26px;
 }
