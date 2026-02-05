@@ -332,10 +332,12 @@ i[class*='van-type-'] {
 
 .host-van-single {
     display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: white;
     margin-bottom: 15px;
     padding: 18px 24px;
+    height: 70px;
 }
 
 .host-van-single > img {
